@@ -10,7 +10,7 @@ document.querySelector('#botaoCodigo').addEventListener('click',  () => {
     })
     codigoPessoas02.map((elemento) => {
         if (elemento == codigo){
-            window.location.href = 'convidados/index02.html'
+            window.location.href = 'https://ivambergsilva.github.io/casa1/'
         }
     })
 })
