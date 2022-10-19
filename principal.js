@@ -5,7 +5,7 @@ document.querySelector('#botaoCodigo').addEventListener('click',  () => {
     let codigo = document.querySelector('#codigo').value.toUpperCase();
     codigoPessoas01.map((elemento) => {
         if (elemento == codigo){
-            window.location.href = 'convidados/index01.html'
+            window.location.href = 'https://ivambergsilva.github.io/casa1/'
         }
     })
     codigoPessoas02.map((elemento) => {
